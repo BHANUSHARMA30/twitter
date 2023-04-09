@@ -1,0 +1,15 @@
+
+<div class="hero">
+<div class="container">
+    <!-- <form class="searchbar" #pform >
+        <input type="text" placeholder="Get The Analysis" name="pname" id="">
+        <button type="submit"><img src="assets/search.png"  alt="asdfgh"></button>
+    </form> -->
+    <div class="searchbar">
+    <input type="text" #box placeholder="Get The Analysis" name="pname" >
+    <button type="submit" (click)="addData()"><img src="assets/search.png"  alt="asdfgh"></button>
+    
+    <router-outlet></router-outlet>
+    </div>
+</div>
+</div>

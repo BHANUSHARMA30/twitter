@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+#IntroContainer
+{
+  background-color:	#00b8ff;
+}
+
+#AboutContainer
+{
+  background-color: #009bd6;
+}
+
+p{
+    font-family:'Comic Sans MS', Courier, monospace;
+    text-align: center;
+}
+
+.list{
+  text-align: center;
+}
+.about{
+  text-align: center;
+  background-color: 	#001f2b;
+  color: white;
+  
+}
+
+.about h1{
+  font-family:'Comic Sans MS', Courier, monospace;
+}
